@@ -1,0 +1,34 @@
+:root{
+    --margin-page: 60xp;
+    --color-oscuro: #232425;
+    --color-azul_oscuro: #082040;
+    --color-azul_medio: #0D4373;
+    --color-azul_claro: #1462A6;
+    --color-rojo: #FF1C1C;
+}
+*{
+    padding: unset;
+    margin: unset;
+    border: unset;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family:roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    outline: unset;
+
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px var(--margin-page);
+    position: relative;
+}
+
+.lista ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
