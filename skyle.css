@@ -1,10 +1,5 @@
 :root{
     --margin-page: 60xp;
-    --color-oscuro: #232425;
-    --color-azul_oscuro: #082040;
-    --color-azul_medio: #0D4373;
-    --color-azul_claro: #1462A6;
-    --color-rojo: #FF1C1C;
 }
 *{
     padding: unset;
@@ -20,15 +15,22 @@
 
 }
 .lista{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 19px var(--margin-page);
-    position: relative;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
-
 .lista ul{
     display: flex;
     justify-content: space-between;
     gap: 32px;
+}
+body{
+    color: floralwhite;
+    background-color: blueviolet;
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #24A812;
+    color: #FFFFFF;
 }
