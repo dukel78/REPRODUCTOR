@@ -34,3 +34,62 @@ button{
     background-color: #24A812;
     color: #FFFFFF;
 }
+.cancion{
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #ffffff73;
+    color: #FFFFFF;
+    margin: 60px;
+}
+.musica{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+    
+}
+.cancion_lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff49;
+    border-radius: 10px;
+    width: 1152px;
+    height: 150px;
+    margin: 60px;
+
+}
+.imagen{
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+}
+.espacio{
+    padding: 60px;
+    height: 60px;
+}
+.Reproductor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin: 60px;
+}
+img{
+    margin: 60px;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    background-color: #ffffff49;
+    border-radius: 10px;
+    width: 1152px;
+    height: 1px; 
+}
