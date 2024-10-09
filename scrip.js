@@ -12,17 +12,17 @@ axios.get('https://api.institutoalfa.org/api/songs').then((response) => {
                     <div>
                         <h3 class="font-bold">${song.title}</h3>
                         <p class="opacity-40">${song.author}</p>
-                        
                     </div>
                     <button>play</button>
              <div>
-
-             
-               
-            
-                
                
         `
+        div.addEventListener('click', () => {
+            document.getElementById('audio').setAttribute('src',
+                `https://api.institutoalfa.org/api/songs/audio/${song.audio.filename}`
+            )
+        })
+         
         contenedor.appendChild(div)
     })
 })
